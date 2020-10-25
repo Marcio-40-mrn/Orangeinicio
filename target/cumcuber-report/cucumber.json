@@ -1,0 +1,198 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Acesso o sistema",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 5758609100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que acesso o sistema",
+            "match": {
+              "location": "ContextoSteps.que_acesso_o_sistema()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7698241800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.IniciaBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "CT1 - login com Sucesso",
+        "description": "",
+        "id": "login;ct1---login-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 3512963200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5018924600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho usuario \"Admin\" e senha \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 18
+                },
+                {
+                  "val": "admin123",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginSteps.preencho_usuario_e_senha(String,String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 168906800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Valido o acesso",
+            "match": {
+              "location": "LoginSteps.valido_o_acesso()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Acesso o sistema",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 4747359600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que acesso o sistema",
+            "match": {
+              "location": "ContextoSteps.que_acesso_o_sistema()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5777460300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.IniciaBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "CT2 - Senha Invalida",
+        "description": "",
+        "id": "login;ct2---senha-invalida",
+        "after": [
+          {
+            "result": {
+              "duration": 4470783800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.Finalizar()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1626619100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "preencho usuario \"Admin\" e senha \"admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 18
+                },
+                {
+                  "val": "admin",
+                  "offset": 34
+                }
+              ],
+              "location": "LoginSteps.preencho_usuario_e_senha(String,String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 53495300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Valido a mensagem de erro",
+            "match": {
+              "location": "LoginSteps.valido_a_mensagem_de_erro()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "\r\nEu como usuario \r\nQuero realizar o login",
+    "id": "login",
+    "keyword": "Funcionalidade",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@login"
+      }
+    ]
+  }
+]
