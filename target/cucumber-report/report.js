@@ -19,7 +19,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 7698241800,
+  "duration": 7675642000,
   "status": "passed"
 });
 formatter.background({
@@ -38,7 +38,7 @@ formatter.match({
   "location": "ContextoSteps.que_acesso_o_sistema()"
 });
 formatter.result({
-  "duration": 5758609100,
+  "duration": 6189402500,
   "status": "passed"
 });
 formatter.scenario({
@@ -73,22 +73,22 @@ formatter.match({
   "location": "LoginSteps.preencho_usuario_e_senha(String,String)"
 });
 formatter.result({
-  "duration": 5018924600,
+  "duration": 4029265200,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.valido_o_acesso()"
 });
 formatter.result({
-  "duration": 168906800,
+  "duration": 122678300,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3512963200,
+  "duration": 1187209800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 5777460300,
+  "duration": 5982767400,
   "status": "passed"
 });
 formatter.background({
@@ -107,7 +107,7 @@ formatter.match({
   "location": "ContextoSteps.que_acesso_o_sistema()"
 });
 formatter.result({
-  "duration": 4747359600,
+  "duration": 4119794900,
   "status": "passed"
 });
 formatter.scenario({
@@ -142,18 +142,18 @@ formatter.match({
   "location": "LoginSteps.preencho_usuario_e_senha(String,String)"
 });
 formatter.result({
-  "duration": 1626619100,
+  "duration": 1414654100,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginSteps.valido_a_mensagem_de_erro()"
 });
 formatter.result({
-  "duration": 53495300,
+  "duration": 48575600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4470783800,
+  "duration": 722182800,
   "status": "passed"
 });
 });
